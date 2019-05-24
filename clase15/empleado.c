@@ -81,7 +81,8 @@ int Emp_getId(Empleado* this, int* valor)
     return retorno;
 }
 
-int Emp_getIdStr(Empleado* this, char* valor)
+int Emp_getIdStr(Empleado* this, char* valor,
+    (int)(criterio*)(Empleados*,Empleados*))
 {
     int retorno = -1;
     int bufferInt;
