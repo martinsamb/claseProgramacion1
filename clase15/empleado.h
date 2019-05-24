@@ -5,13 +5,18 @@ typedef struct
 {
     int id;
     char nombre[LEN_NAME];
-    float peso;
+    char apellido[LEN_NAME];
     int estado;
 }Empleado;
 
 #endif
 
 Empleado* Emp_new(void);
+Empleado* Emp_newStr(char *id,
+					char *nombre,
+					char *apellido,
+					char *estado);
+
 int Emp_delete(Empleado* this);
 
 int Emp_setId(Empleado* this, int id);

@@ -18,3 +18,22 @@
 	<string.h>
 	<ctype.h>
 
+1558649696 source:/home/alumno/Documentos/martinsamb/clase15/claseProgramacion1/clase15/empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1558657257 /home/alumno/Documentos/martinsamb/clase15/claseProgramacion1/clase15/empleado.h
+
+1558654035 source:/home/alumno/Documentos/martinsamb/clase15/claseProgramacion1/clase15/main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+
+1558654430 source:/home/alumno/Documentos/martinsamb/clase15/claseProgramacion1/clase15/validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
