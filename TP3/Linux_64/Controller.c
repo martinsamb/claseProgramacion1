@@ -13,6 +13,35 @@
  */
 int controller_loadFromText(char* path , LinkedList* pArrayListEmployee)
 {
+    int retorno =-1;
+    FILE *pFile = NULL;
+    Employee auxEmpleado;
+    Employee *pEmpleado;
+    if(path != NULL && pArrayListEmployee != NULL)
+    {
+		pFile = fopen(path,"r");
+		if(pFile != NULL)
+		{
+			while(!feof(pFile))
+			{
+				fread(&auxEmpleado,sizeof(Employee), 1, pFile);
+				//printf("%s\n",auxEmpleado.nombre);
+				pEmpleado = employee new();
+				if(!employee_setId(pEmpleado,auxEmpleado.id)&&
+				!employee_setNombre(pEmpleado,auxEmpleado.nombre)&&
+				!employee_setHorasTrabajadas(pEmpleados,auxEmpleado.horasTrabajadas)&&
+				!employee_setSueldo(pEmpleado.suledo))
+				{
+					ll_add(pArrayListEmployee,pEmpleado);
+				}
+				else
+				{
+					employee_delete(pEmpleado);
+				}
+			}
+		}
+		fclose(pFile)
+    }
     return 1;
 }
 
@@ -109,6 +138,25 @@ int controller_saveAsText(char* path , LinkedList* pArrayListEmployee)
  */
 int controller_saveAsBinary(char* path , LinkedList* pArrayListEmployee)
 {
+    int retorno =-1;
+    int i ;
+    Employee *pEmployee = NULL;
+    FILE*pFile = NULL;
+    if(path != NULL && pArrayListEmployee != NULL)
+    {
+		pFile = fopen(path,"w");
+		if(pFile != NULL)
+		{
+			for(i =  0;ll_len(pArrayListEmployee);i++)
+			{
+				pEmployee = ll_get(pArrayListEmployee,i);
+				//printf("%s\n",pEmployee->nombre);
+				fwrite(pEmployee,sizeof(Employee),1,pFile);
+			}
+		}
+		retorno = 0;
+		fclose(pFile);
+    }
     return 1;
 }
 
