@@ -38,6 +38,7 @@ int ll_len(LinkedList* this)
     if(this != NULL)
     {
 		this->size;
+		this->
     }
 
     return returnAux;
