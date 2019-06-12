@@ -37,8 +37,7 @@ int ll_len(LinkedList* this)
     this = (LinkedList *)malloc(sizeof(LinkedList));
     if(this != NULL)
     {
-		this->size;
-		this->
+		this->size = pNextNode;
     }
 
     return returnAux;
@@ -56,6 +55,7 @@ int ll_len(LinkedList* this)
 static Node* getNode(LinkedList* this, int nodeIndex)
 {
     Node* pNode = NULL;
+
 
     return pNode;
 }
@@ -83,11 +83,43 @@ Node* test_getNode(LinkedList* this, int nodeIndex)
                         ( 0) Si funciono correctamente
  *
  */
-static int addNode(LinkedList* this, int nodeIndex,void* pElement)
+static int addNode(LinkedList* this, int nodeIndex,void* pElement)//Donde quiere que entre
+//Me quiero meter entre dos nodos
 {
     int returnAux = -1;
+    Node* pNodoAnterior;
+    Node* pNodoProximo;
+    Node* pNodoNuevo;
+    if(this != NULL && nodeIndex>=0 && nodeIndex <= ll_len(this))
+    {
+		if(nodeIndex == 0)//p
+		{
+			pNodoAnterior = this->pFirstNode;
 
-    return returnAux;
+		}
+		else
+		{
+			pNodoAnterior = getNode(this,nodeIndex-1);
+		}
+		pNodoProximo = pNodoAnterior->pNextNode;
+		pNodoNuevo = (Node*)malloc(sizeof(Node));
+		if(pNodoNuevo != NULL)
+		{
+			pNodoNuevo->pElement = pElement;
+			pNodoNuevo->pNextNode = pNodoProximo;
+
+		}
+		else
+		{
+			pNodoNuevo = (Node*)malloc(sizeof(Node));
+		}	pNodoAnterior->pNextNode = pNodoNuevo;
+			this-<size = this->size+1;
+
+			returnAux = 0;
+		}
+
+	}
+	return returnAux;
 }
 
 
