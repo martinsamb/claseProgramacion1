@@ -34,22 +34,22 @@ struct LinkedList
 
 
 //Publicas
-LinkedList* ll_newLinkedList(void);
-int ll_len(LinkedList* this);
-Node* test_getNode(LinkedList* this, int nodeIndex);
-int test_addNode(LinkedList* this, int nodeIndex,void* pElement);
-int ll_add(LinkedList* this, void* pElement);
-void* ll_get(LinkedList* this, int index);
-int ll_set(LinkedList* this, int index,void* pElement);
-int ll_remove(LinkedList* this,int index);
-int ll_clear(LinkedList* this);
-int ll_deleteLinkedList(LinkedList* this);
-int ll_indexOf(LinkedList* this, void* pElement);
-int ll_isEmpty(LinkedList* this);
-int ll_push(LinkedList* this, int index, void* pElement);
-void* ll_pop(LinkedList* this,int index);
-int ll_contains(LinkedList* this, void* pElement);
-int ll_containsAll(LinkedList* this,LinkedList* this2);
-LinkedList* ll_subList(LinkedList* this,int from,int to);
-LinkedList* ll_clone(LinkedList* this);
-int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order);
+LinkedList* ll_newLinkedList(void);//-1
+int ll_len(LinkedList* this);//-2
+Node* test_getNode(LinkedList* this, int nodeIndex);//-3
+int test_addNode(LinkedList* this, int nodeIndex,void* pElement);//-4
+int ll_add(LinkedList* this, void* pElement);//-5
+void* ll_get(LinkedList* this, int index);//-6
+int ll_set(LinkedList* this, int index,void* pElement);//-7
+int ll_remove(LinkedList* this,int index);//-7
+int ll_clear(LinkedList* this);//-8
+int ll_deleteLinkedList(LinkedList* this);//-9
+int ll_indexOf(LinkedList* this, void* pElement);//-10
+int ll_isEmpty(LinkedList* this);//-11
+int ll_push(LinkedList* this, int index, void* pElement);//-12
+void* ll_pop(LinkedList* this,int index);//-13
+int ll_contains(LinkedList* this, void* pElement);//-14
+int ll_containsAll(LinkedList* this,LinkedList* this2);//-15
+LinkedList* ll_subList(LinkedList* this,int from,int to);//-16
+LinkedList* ll_clone(LinkedList* this);//-17
+int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order);//-18
