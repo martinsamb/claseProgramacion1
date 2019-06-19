@@ -81,7 +81,6 @@ Node* test_getNode(LinkedList* this, int nodeIndex)
     return getNode(this, nodeIndex);
 }
 
-
 /** \brief Agrega y enlaza un nuevo nodo a la lista
  *
  * \param this LinkedList* Puntero a la lista
@@ -106,8 +105,14 @@ static int addNode(LinkedList* this, int nodeIndex,void* pElement)//Donde quiere
             pNodoNuevo->pElement = pElement;
             if(nodeIndex == 0)
             {
-                if(this->pFirstNode == NULL)pNodoNuevo->pNextNode = NULL;
-                if(this->pFirstNode != NULL) pNodoNuevo->pNextNode = this->pFirstNode;
+                if(this->pFirstNode == NULL)
+                {
+                    pNodoNuevo->pNextNode = NULL;
+                }
+                if(this->pFirstNode != NULL)
+                {
+                    pNodoNuevo->pNextNode = this->pFirstNode;
+                }
                 this->pFirstNode = pNodoNuevo;
             }
             else
@@ -202,7 +207,7 @@ int ll_set(LinkedList* this, int index,void* pElement)
     if(this != NULL && index>= 0 && index<ll_len(this))
     {
         pAuxiliar = getNode(this,index);
-        if(pAuxiliar = NULL)
+        if(pAuxiliar == NULL)
         {
             pAuxiliar->pElement = pElement;
             returnAux = 0;
@@ -226,7 +231,7 @@ int ll_remove(LinkedList* this,int index)
     Node* pAuxActual = NULL;
     Node* pAuxPrevio = NULL;
 
-    if(this != NULL && index >= 0 && index<ll_len(this) && index<ll_len(this)> 0 )
+    if((this != NULL && index >= 0 && index<ll_len(this) && index<ll_len(this))> 0 )
     {
         pAuxActual = getNode(this,index);
         pAuxPrevio = getNode(this,index-1);
@@ -244,7 +249,6 @@ int ll_remove(LinkedList* this,int index)
     }
     return returnAux;
 }
-
 
 /** \brief Elimina todos los elementos de la lista
  *
@@ -269,7 +273,6 @@ int ll_clear(LinkedList* this)
             returnAux = 0;
         }
     }
-
     return returnAux;
 }
 
