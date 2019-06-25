@@ -1,9 +1,14 @@
 #ifndef PARSER_H_INCLUDED
 #define PARSER_H_INCLUDED
 
-#include "ArrayList.h"
+#include "LinkedList.h"
 
-int parser_parseEmpleados(char* fileName, ArrayList* listaEmpleados);
+
+int parser_loadFromText(char* path , LinkedList* pArrayListEmployee);
+int parser_parseEmpleados(FILE* fileName, LinkedList* listaEmpleados);
+int generarArchivoSueldos(char* path , LinkedList* pArrayListEmployee);
 
 
 #endif // PARSER_H_INCLUDED
+
+

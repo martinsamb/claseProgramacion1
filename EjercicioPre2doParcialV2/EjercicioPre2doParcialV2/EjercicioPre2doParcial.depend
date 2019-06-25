@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1561481653 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"Parser.h"
+	"utn.h"
+	"Controller.h"
+
+1561480262 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\linkedlist.h
+
+1561482336 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\empleado.h
+	"LinkedList.h"
+
+1561480687 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\parser.h
+	"LinkedList.h"
+
+1561479479 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\utn.h
+
+1561481493 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\controller.h
+
+1561479900 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561482353 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"utn.h"
+	"Controller.h"
+
+1561477115 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+	"Controller.h"
+
+1561481632 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"utn.h"
+	"Parser.h"
+	"Controller.h"
+
+1561479440 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\ejerciciopre2doparcialv2\ejerciciopre2doparcialv2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	<time.h>
+
