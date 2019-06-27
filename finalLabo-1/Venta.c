@@ -12,24 +12,31 @@
 -venta_newParametros
 -venta_newBinario
 -venta_delete
+
 -venta_setIdStr
 -venta_setId
 -venta_getId
+
 -venta_setIdClienteStr
 -venta_setIdCliente
 -venta_getIdCliente
+
 -venta_setCodProductoStr
 -venta_setCodProducto
 -venta_getCodProducto
+
 -venta_setCantidad
 -venta_setCantidad
 -venta_getCantidad
+
 -venta_setPrecio
 -venta_setPrecio
 -venta_getPrecio
+
 -venta_cmpId
 -venta_searchId
 -venta_searchMaxId
+
 */
 
 /** \brief Reserva espacio en memoria para un Venta
@@ -89,12 +96,15 @@ Venta* venta_newBinario(Venta venta)
 {
     Venta* retorno=NULL;
     Venta* bufferP;
+
     char arrayBuffers[5][STR_SIZE];
+
     sprintf(arrayBuffers[0],"%d",venta.id);
     sprintf(arrayBuffers[1],"%d",venta.idCliente);
     sprintf(arrayBuffers[2],"%d",venta.codProducto);
     sprintf(arrayBuffers[3],"%d",venta.cantidad);
     sprintf(arrayBuffers[4],"%d",venta.precio);
+
     if(arrayBuffers[0]!=NULL && venta.nombre!=NULL && arrayBuffers[1]!=NULL && arrayBuffers[2]!=NULL && arrayBuffers[3]!=NULL && arrayBuffers[4]!=NULL)
     {
         bufferP=venta_new();
@@ -523,4 +533,4 @@ int venta_searchMaxId(LinkedList* pArrayList, int* maxID)
     }
     return retorno;
 }
-© 2019 GitHub, Inc.
+

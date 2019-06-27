@@ -12,19 +12,26 @@
 -cliente_newParametros
 -cliente_newBinario
 -cliente_delete
+
 -cliente_setIdStr
 -cliente_setId
 -cliente_getId
+
 -cliente_setNombre
 -cliente_getNombre
+
 -cliente_setApellido
 -cliente_getApellido
+
 -cliente_setDni
 -cliente_getDni
+
 -cliente_cmpId
 -cliente_cmpName
+
 -cliente_searchId
 -cliente_searchMaxId
+
 */
 
 /** \brief Reserva espacio en memoria para un Cliente
@@ -414,3 +421,7 @@ int cliente_searchMaxId(LinkedList* pArrayList, int* maxID)
     }
     return retorno;
 }
+
+
+
+

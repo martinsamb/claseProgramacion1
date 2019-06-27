@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1561666782 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\controllercliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Cliente.h"
+	"File.h"
+	"utn.h"
+
+1561487720 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\linkedlist.h
+
+1561666176 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\cliente.h
+
+1561658981 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\file.h
+
+1561487796 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\utn.h
+
+1561666245 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\controllerventa.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Venta.h"
+	"File.h"
+	"utn.h"
+
+1561666228 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\venta.h
+
+1561658073 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\file.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Cliente.h"
+	"Venta.h"
+
+1561487673 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561666962 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Cliente.h"
+	"utn.h"
+
+1561666292 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"ControllerCliente.h"
+	"ControllerVenta.h"
+	"utn.h"
+	"Informes.h"
+
+1561658539 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\controllercliente.h
+
+1561658561 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\controllerventa.h
+
+1561487818 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	<time.h>
+
+1561666190 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"ControllerCliente.h"
+	"ControllerVenta.h"
+	"utn.h"
+	"Venta.h"
+	"Cliente.h"
+
+1561663408 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\venta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Venta.h"
+	"utn.h"
+
+1561659035 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo-1\informes.h
+

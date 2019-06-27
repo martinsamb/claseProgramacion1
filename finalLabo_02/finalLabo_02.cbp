@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="finalLabo-1" />
+		<Option title="finalLabo_02" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/finalLabo-1" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/finalLabo_02" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/finalLabo-1" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/finalLabo_02" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -31,18 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Cliente.c">
+		<Unit filename="Controller.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Cliente.h" />
-		<Unit filename="ControllerCliente.c">
+		<Unit filename="Controller.h" />
+		<Unit filename="Entrega.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ControllerCliente.h" />
-		<Unit filename="ControllerVenta.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="ControllerVenta.h" />
+		<Unit filename="Entrega.h" />
 		<Unit filename="File.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -55,10 +51,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="LinkedList.h" />
-		<Unit filename="Venta.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Venta.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1561614715 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\entrega.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entrega.h"
+	"utn.h"
+
+1561617689 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\linkedlist.h
+
+1561619986 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\entrega.h
+
+1561617738 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\utn.h
+
+1561615104 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\file.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entrega.h"
+
+1561616603 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Entrega.h"
+	"Informes.h"
+	"utn.h"
+
+1561625484 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\controller.h
+
+1561617402 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\informes.h
+
+1561616964 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561654782 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Entrega.h"
+	"Informes.h"
+	"utn.h"
+
+1561605780 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	<time.h>
+
+1561625881 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entrega.h"
+	"File.h"
+	"utn.h"
+
+1561617372 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\finallabo_02\file.h
+
