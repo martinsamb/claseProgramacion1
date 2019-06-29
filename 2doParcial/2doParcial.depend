@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1561777840 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\2doparcial\entidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Entidad.h"
+	"LinkedList.h"
+	"validaciones.h"
+
+1561777633 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\2doparcial\entidad.h
+
+1561777920 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\2doparcial\linkedlist.h
+
+1561777736 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\2doparcial\validaciones.h
+
+1561777823 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\2doparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entidad.h"
+
+1561777783 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\2doparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entidad.h"
+	"Parser.h"
+
+1561777710 c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\2doparcial\parser.h
+	"LinkedList.h"
+
+1561777757 source:c:\users\maría marta\desktop\martin\utn\programacion1\claseprogramacion2\claseprogramacion1\2doparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
