@@ -38,3 +38,42 @@
 	<ctype.h>
 	"validaciones.h"
 
+1561812179 source:d:\mis documentos\martinsamb\claseprogramacion1\2doparcial\entidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Entidad.h"
+	"LinkedList.h"
+	"validaciones.h"
+
+1561812179 d:\mis documentos\martinsamb\claseprogramacion1\2doparcial\entidad.h
+
+1561812179 d:\mis documentos\martinsamb\claseprogramacion1\2doparcial\linkedlist.h
+
+1561812179 d:\mis documentos\martinsamb\claseprogramacion1\2doparcial\validaciones.h
+
+1561812179 source:d:\mis documentos\martinsamb\claseprogramacion1\2doparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entidad.h"
+
+1561812179 source:d:\mis documentos\martinsamb\claseprogramacion1\2doparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entidad.h"
+	"Parser.h"
+
+1561812179 d:\mis documentos\martinsamb\claseprogramacion1\2doparcial\parser.h
+	"LinkedList.h"
+
+1561812179 source:d:\mis documentos\martinsamb\claseprogramacion1\2doparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+

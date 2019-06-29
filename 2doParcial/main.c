@@ -28,31 +28,38 @@ int main()
             mayoresMayores = ll_count(lista, criterioMayor300);
             cantidadDeFotosPolaroid = ll_count(lista, criterioPolaroid);
             if (guardado("informe.csv", cantidadDeFotos, mayores, mayoresMayores,
-                        cantidadDeFotosPolaroid))
+                         cantidadDeFotosPolaroid))
             {
-                printf("Archivo guardado\n");            } else
+                printf("Archivo guardado\n");
+            }
+            else
             {
                 printf("Ocurrio un error en el guardado");
             }
-        } else
+        }
+        else
         {
             printf("Ocurrio un error en la apertura");
-        }    }
+        }
+    }
     return 0;
 }
 
 int acumuladorDeFotos(LinkedList* lista)
 {
+    int i;
     Entidad* pEntidad = NULL;
     int acum;
     int retorno = 0;
     if (lista != NULL)
     {
-        for (int i = 0; i < ll_len(lista); i++)
+        for (i=0; i<ll_len(lista); i++)
         {
             pEntidad = ll_get(lista, i);
             entidad_getCantidad(pEntidad, &acum);
-            retorno = retorno + acum;        }    }
+            retorno = retorno + acum;
+        }
+    }
     return retorno;
 }
 
@@ -66,9 +73,11 @@ int criterioMayor150(void* pEntidad)
         entidad_getPrecio(pEntidad, &precio);
         if (precio > 150)
         {
-            retorno = 1;        }
+            retorno = 1;
+        }
     }
-    return retorno;}
+    return retorno;
+}
 
 int criterioMayor300(void* pEntidad)
 {
@@ -79,9 +88,11 @@ int criterioMayor300(void* pEntidad)
         entidad_getPrecio(pEntidad, &precio);
         if (precio > 300)
         {
-            retorno = 1;        }
+            retorno = 1;
+        }
     }
-    return retorno;}
+    return retorno;
+}
 
 int criterioPolaroid(void* pEntidad)
 {
@@ -90,8 +101,10 @@ int criterioPolaroid(void* pEntidad)
     if (pEntidad != NULL)
     {
         entidad_getFoto(pEntidad, foto);
-        if(strncmp(foto, "POLAROID_11x9", 13) == 0 || strncmp(foto, "POLAROID_11x10", 14) == 0))
+        if(strncmp(foto, "POLAROID_11x9", 13) == 0 || strncmp(foto, "POLAROID_10x10", 14) == 0)
         {
-            retorno = 1;        }
+            retorno = 1;
+        }
     }
-    return retorno;}
+    return retorno;
+}
