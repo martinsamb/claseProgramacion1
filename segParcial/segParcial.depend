@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1562869773 source:c:\users\maría marta\desktop\martin\utn\2doparcial\claseprogramacion1\segparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Venta.h"
+
+1562870088 c:\users\maría marta\desktop\martin\utn\2doparcial\claseprogramacion1\segparcial\linkedlist.h
+
+1562869947 c:\users\maría marta\desktop\martin\utn\2doparcial\claseprogramacion1\segparcial\venta.h
+
+1562871709 source:c:\users\maría marta\desktop\martin\utn\2doparcial\claseprogramacion1\segparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Venta.h"
+	"Parser.h"
+
+1562872060 c:\users\maría marta\desktop\martin\utn\2doparcial\claseprogramacion1\segparcial\parser.h
+	"LinkedList.h"
+
+1562871748 source:c:\users\maría marta\desktop\martin\utn\2doparcial\claseprogramacion1\segparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Parser.h"
+	"LinkedList.h"
+	"Venta.h"
+
+1562869845 source:c:\users\maría marta\desktop\martin\utn\2doparcial\claseprogramacion1\segparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1562870139 c:\users\maría marta\desktop\martin\utn\2doparcial\claseprogramacion1\segparcial\validaciones.h
+
+1562871783 source:c:\users\maría marta\desktop\martin\utn\2doparcial\claseprogramacion1\segparcial\venta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Venta.h"
+	"LinkedList.h"
+	"validaciones.h"
+
