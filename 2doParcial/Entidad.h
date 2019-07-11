@@ -43,3 +43,6 @@ int entidad_getCuit(Entidad* this,char* cuit);
 
 
 #endif // ENTIDAD_H_INCLUDED
+
+
+
